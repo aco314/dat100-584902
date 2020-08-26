@@ -33,7 +33,5 @@ public class Oppgave5 {
 			JOptionPane.showMessageDialog(null, karakter);
 		
 		}
-
 	}
-
 }
