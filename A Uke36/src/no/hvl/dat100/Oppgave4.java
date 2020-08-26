@@ -13,7 +13,7 @@ public class Oppgave4 {
 		int inntekt = Integer.valueOf(JOptionPane.showInputDialog("Skriv inn inntekt:"));
 		double sumSkatt = 0.0;
 		
-		// En løkke som kjører 4 ganger. Den vil regne ut skatten til et nytt trinn hver gang den går.
+		// En løkke som kjører opptil 4 ganger. Den vil regne ut skatten til et nytt trinn hver gang den går.
 		for (int i = 0; i < 4; i++) {
 			
 			if (inntekt > skatteGrenser[i]) {
