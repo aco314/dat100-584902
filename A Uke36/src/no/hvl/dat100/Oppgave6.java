@@ -20,6 +20,9 @@ public class Oppgave6 {
 			}
 			
 			System.out.println(tall + "! = " + sum);
+		} else {
+			
+			System.out.println("Tallet du tastet inn kan ikke være negativt.");
 		}
 		
 		
